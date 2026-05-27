@@ -1,0 +1,36 @@
+h1 {
+  color:hotpink;
+}
+
+h2 {
+  color:goldenrod;
+}
+h3{
+  color:darkviolet;
+}
+
+.highlight {
+  background-color: hotpink;
+}
+
+#____ {
+  border: 2px solid darkpink;
+}
+
+.layout {
+  width: 100%;
+
+  display: flex;
+  gap: 16px;
+
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+body {
+  font-family: 'Times New Roman', serif;
+  background-color: pink;
+}
+
+.grow1 { flex-grow: 1; }
+.grow2 { flex-grow: 2; }
